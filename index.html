@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Ristorante Pizzeria Diamante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="diamante.JPG" alt="Diamante Pizzeria Ristorante" class="header-image">
+        <nav class="image-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#about-us">Chi Siamo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2 id="welcome">Benvenuti!</h2>
+        <p>Scopri i nostri deliziosi piatti, preparati con ingredienti freschi e di alta qualità.</p>
+        
+        <h2 id="about-us">Chi Siamo</h2>
+        <p>Benvenuti al Ristorante Pizzeria Diamante! Situato nel cuore di Ivrea, il nostro ristorante è un rifugio per gli amanti della cucina italiana autentica. Il nostro menu offre una vasta gamma di piatti deliziosi preparati con ingredienti freschi e di alta qualità.</p>
+        <p>Inizia il tuo viaggio gastronomico con i nostri Antipasti di Mare e Antipasti di Terra, seguiti dai Primi e Secondi che celebrano i sapori tradizionali italiani. Le nostre Insalatone e Pizze, cotte nel forno a legna, sono perfette per ogni occasione.</p>
+        <p>Al Ristorante Pizzeria Diamante, ogni piatto è preparato con passione e dedizione per offrire un'esperienza culinaria indimenticabile. Unisciti a noi e lascia che i tuoi sensi siano deliziati!</p>
+
+        <div class="gallery">
+            <img src="piatto1.JPG" alt="Delicious Dish 1" class="gallery-image">
+            <img src="piatto2.JPG" alt="Delicious Dish 2" class="gallery-image">
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="vid.MP4" type="video/mp4">
+                Il tuo browser non supporta la riproduzione video.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>Indirizzo:</strong> <a href="https://maps.app.goo.gl/thFB6WMUjqTN7nHB7">Via Amedeo di Castellamonte, 23, 10015 Ivrea TO</a></p>
+        <p><strong>Telefono:</strong> <a href="tel:+393313403528">+39 331 340 3528</a></p>
+        <p><strong>Orari di apertura:</strong> Lun - Dom: 12:00–15:00, 19:00–23:30 | martedì: 12:00–15:00</p>
+        <p class="social mt-2">
+            <a rel="me" href="https://www.facebook.com/share/19qiZ2cd3G/?mibextid=LQQJ4d"><img src="https://www.linux.it/shared/?f=immagini/facebook.svg" alt="ILS su Facebook" class="social-icon"></a>
+        </p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.image-nav').classList.add('show');
+        });
+    </script>
+</body>
+</html>
